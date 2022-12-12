@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;box-sizing: border-box;
+            /* font-size: 62.5%; */
+            color: whitesmoke;
+        }
+
+        header::before {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 16, 252, 0.5)), url("aven.jpg")
+          no-repeat center center/cover;
+        
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        
+        
+      }
+
+        header{
+            width: 97vw;
+            height: 15vh;
+            margin-top: 15px;
+        }
+        
+        ul{
+            float: right;
+            font-size: 1.2rem;
+            
+            list-style: none;
+        }
+
+        li{
+            display: inline-block;
+            padding: 12px;
+            margin: 10px ;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        img{
+            width: 15%;
+            margin-left: 35px;
+            z-index: 1;
+        }
+
+        a{
+            text-decoration: none;
+            transition: all 1s ease-in-out;
+        }
+        a:hover{
+            color: red;
+        }
+
+        .main{
+            width: 50vw;
+            margin: 200px;
+            text-align: center;
+            font-size: 1.2rem;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700; 
+                  
+        }
+        h1{
+            font-weight: 900;
+        }
+
+        p{
+            line-height: 40px; 
+        }
+
+        button{
+            padding: 10px;
+            width: 300px;
+            height: 50px;
+            color: rgb(184, 18, 18);
+            background-color: rgb(49, 46, 46);
+        }
+        .main button a{
+            color: red ;
+            font-size: 22px;
+            font-weight: 600;
+            
+        }
+        .main button a:hover{
+            color: rgb(255, 255, 255) ;
+            font-size: 22px;
+            font-weight: 800;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <img src="marlvo.png" alt="avengers endgame" width="18%">
+        <ul>
+            <li> <a href="#">videos</a></li>
+            <li> <a href="#">characters</a></li>
+            <li> <a href="#">carriers</a></li>
+            <li> <a href="#">movies</a></li>
+            <li> <a href="#">tv shows</a></li>
+            <li> <a href="#">games</a></li>
+            <li> <a href="#">more</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <h1>AVENGERS endgame</h1>
+        <p> After the devastating events of Avengers: Infinity War (2018), the universe <br>
+            is in ruins. With the help of remaining allies, the Avengers assemble once more<br>
+             in order  to reverse Thanos'actions and restore balance to the universe.</p> 
+        <button "><a class=".cred" href="https://www.youtube.com/watch?v=TcMBFSGVi1c">Watch Trailer Now</a></button>                                                   
+        </div>
+    
+</body>
+</html>
